@@ -1,38 +1,44 @@
-# 📱 Forsaken x Opera GX Rewards for Mobile Players
+# 📱 Forsaken x Opera GX Rewards — Mobile Players
 
-🐰 By Yours Truly, Gubby Photon <3
-⭐ Crediit To Ryxllers for showing this method
-
----
-
-## ⚙️ Setup
-
-🎥 **Video Tutorial**
-👉 [How To Earn Forsaken x Opera GX Rewards via Mobile (Youtube)](google.com)
+> 🐰 Made with love by **Gubby Photon** &lt;3  
+> ⭐ Credit to **Ryxllers** for the original method
 
 ---
 
-🔧 **Step By Step**
+## 🎥 Video Tutorial
 
-1. Fork This Repository
-2. Create a Tailscale Account in browser
-3. Create Tailscale Auth Key and API Key (Save them in a note app)
-4. Run workflow via Actions Tab
-5. Insert your Tailnet, Auth Key, and API Key
-6. Download Tailscale and Windows App (or Windows App Mobile if IOS) on your phone
-7. Login on the same account on your phone as your browser
-8. Open Windows App and click on PC Connection
-9. Type in 
-- PC Name: anything
-- Username: GubbySamurai
-- Password: Gubby@12345
-Then click Add
-10. Connect to the Remote Server
-11. Do your stuff!
+👉 [How To Earn Forsaken x Opera GX Rewards via Mobile (YouTube)](google.com)
 
 ---
 
+## ⚙️ Setup Guide
+
+### Step 1 — Prepare Tailscale
+1. Create a [Tailscale](https://tailscale.com) account in your browser
+2. Generate a **Tailscale Auth Key** and **API Key**
+3. Save both keys somewhere safe (notes app, etc.)
+
+### Step 2 — Run the Workflow
+1. **Fork this repository**
+2. Go to the **Actions** tab and run the workflow
+3. Enter your **Tailnet**, **Auth Key**, and **API Key** when prompted
+
+### Step 3 — Connect via Your Phone
+1. Download **Tailscale** on your phone and log in with the **same account** as your browser
+2. Download the **Windows App** (or **Windows App Mobile** on iOS)
+3. Open the Windows App and tap **New PC** / **Add Connection** and enter:
+
+| Field | Value |
+|-------|-------|
+| PC Name | *(anything)* |
+| Username | `GubbySamurai` |
+| Password | `Gubby@12345` |
+
+4. Tap **Add**, then **Connect**
+5. You're in! Go redeem your rewards 🎉
+
+---
 
 ## 📄 License
 
-This project is open-source — feel free to use, modify, and share it responsibly.  
+This project is open-source — feel free to use, modify, and share it responsibly.
