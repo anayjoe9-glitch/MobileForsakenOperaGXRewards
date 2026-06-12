@@ -31,7 +31,7 @@ jobs:
             $tn = [uri]::EscapeDataString("${{ inputs.ts_tailnet }}")
             $list = Invoke-RestMethod -Uri "https://api.tailscale.com/api/v2/tailnet/$tn/devices" -Headers @{ Authorization = "Basic $auth" }
             foreach ($d in $list.devices) {
-              if ($d.hostname -match '^gubby$') {
+              if ($d.hostname -match '^gubby') {
                 Invoke-RestMethod -Method Delete -Uri "https://api.tailscale.com/api/v2/device/$($d.id)" -Headers @{ Authorization = "Basic $auth" } -ErrorAction SilentlyContinue
               }
             }
